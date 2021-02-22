@@ -1,0 +1,120 @@
+{
+	"projectName": "test-Otranscribe",
+	"timestamp": "Feb 22, 2021 at 12:43pm",
+	"successRate": 100,
+	"environment": "default",
+	"tags": "",
+	"executionTime": 10611,
+	"executionStatus": "passed",
+	"specResults": [
+		{
+			"specHeading": "CP-CU-OT09-01- Ver sección de transcripción, Iniciar Transcripción",
+			"fileName": "C:\\testing\\test-Otranscribe\\spec\\CP-CU-OT09-01-IniciarTranscripcion.spec",
+			"tags": [],
+			"executionTime": 10240,
+			"executionStatus": "passed",
+			"scenarios": [
+				{
+					"scenarioHeading": "Scenario carga sección transcripción, iniciar transcripción",
+					"tags": [],
+					"executionTime": 10240,
+					"executionStatus": "passed",
+					"contexts": [],
+					"teardowns": [],
+					"items": [
+						{
+							"itemType": "step",
+							"stepText": "Given que el usuario quiere ingresar a transcribir \"https://otranscribe.com/\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "https://otranscribe.com/",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 3637,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "When el carga video para transcripcion \"https://www.youtube.com/watch?v=EuTovW__EZE\"",
+							"parameters": [
+								{
+									"parameterType": "static",
+									"name": "",
+									"value": "https://www.youtube.com/watch?v=EuTovW__EZE",
+									"table": null
+								}
+							],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 838,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						},
+						{
+							"itemType": "step",
+							"stepText": "Then el valida carga del video",
+							"parameters": [],
+							"table": null,
+							"beforeStepHookFailure": null,
+							"afterStepHookFailure": null,
+							"result": {
+								"status": "passed",
+								"stackTrace": "",
+								"screenshot": "",
+								"errorMessage": "",
+								"executionTime": 808,
+								"skippedReason": "",
+								"messages": [],
+								"errorType": "assertion",
+								"ScreenshotFile": ""
+							}
+						}
+					],
+					"beforeScenarioHookFailure": null,
+					"afterScenarioHookFailure": null,
+					"skipErrors": [],
+					"tableRowIndex": -1
+				}
+			],
+			"isTableDriven": false,
+			"datatable": null,
+			"beforeSpecHookFailure": null,
+			"afterSpecHookFailure": null,
+			"passedScenarioCount": 1,
+			"failedScenarioCount": 0,
+			"skippedScenarioCount": 0
+		}
+	],
+	"beforeSuiteHookFailure": null,
+	"afterSuiteHookFailure": null,
+	"passedSpecsCount": 1,
+	"failedSpecsCount": 0,
+	"skippedSpecsCount": 0,
+	"passedScenariosCount": 1,
+	"failedScenariosCount": 0,
+	"skippedScenariosCount": 0
+}

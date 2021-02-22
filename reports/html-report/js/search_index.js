@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"CP-CU-OT09-01- Ver sección de transcripción, Iniciar Transcripción":["spec/CP-CU-OT09-01-IniciarTranscripcion.html"]}};
